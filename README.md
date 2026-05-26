@@ -203,10 +203,7 @@ uv run ruff check .
 │   ├── collect_resume_metrics.py  # 收集恢复能力指标
 │   ├── run_large_scale_experiments.py
 │   └── run_provider_experiments.py
-├── assets/
-│   └── screenshots/               # CLI 截图素材
 ├── pyproject.toml                 # 包元数据、入口点、dev 依赖
-├── uv.lock                        # uv 锁文件
 └── README.md
 ```
 

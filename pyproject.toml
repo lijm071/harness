@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coding-agent"
+version = "0.1.0"
+description = "Small repository automation runtime for Ollama and OpenAI-compatible models"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+coding-agent = "coding_agent.cli:main"
+
+[dependency-groups]
+dev = [
+  "pytest>=8.3.5",
+  "ruff>=0.4.4",
+]
+
+[tool.setuptools]
+packages = ["coding_agent"]
